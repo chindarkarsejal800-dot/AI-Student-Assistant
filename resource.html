@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Resources - AI Study Assistant</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    padding:20px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header h1{
+    font-size:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#ffd700;
+}
+
+.hero{
+    text-align:center;
+    padding:80px 20px;
+    background:linear-gradient(to right,#2563eb,#3b82f6);
+    color:white;
+}
+
+.hero h2{
+    font-size:45px;
+    margin-bottom:15px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:900px;
+    margin:auto;
+    line-height:1.6;
+}
+
+.container{
+    width:85%;
+    margin:50px auto;
+}
+
+.resource-card{
+    background:white;
+    padding:30px;
+    margin-bottom:30px;
+    border-radius:15px;
+    box-shadow:0px 4px 12px rgba(0,0,0,0.15);
+}
+
+.resource-card h2{
+    color:#1e3a8a;
+    margin-bottom:20px;
+    border-bottom:3px solid #2563eb;
+    padding-bottom:10px;
+}
+
+.resource-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.item-link{
+    text-decoration:none;
+}
+
+.item{
+    background:#eef4ff;
+    padding:15px;
+    border-radius:10px;
+    text-align:center;
+    font-weight:bold;
+    color:#1e3a8a;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.item:hover{
+    background:#2563eb;
+    color:white;
+    transform:translateY(-3px);
+}
+
+.tips-list{
+    padding-left:25px;
+    line-height:2;
+    font-size:17px;
+}
+
+.video-section{
+    margin-top:20px;
+}
+
+.video-section h3{
+    color:#2563eb;
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:40px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+    <h1>AI Study Assistant</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="chatbot.html">Chatbot</a>
+        <a href="resource.html">Resources</a>
+    </nav>
+
+</header>
+
+<section class="hero">
+    <h2>Learning Resources</h2>
+
+    <p>
+        Explore study materials, learning platforms,
+        exam preparation strategies and educational videos
+        to enhance your academic journey.
+    </p>
+</section>
+
+<div class="container">
+
+    <!-- Study Materials -->
+
+    <div class="resource-card">
+
+        <h2>📚 Study Materials</h2>
+
+        <div class="resource-grid">
+
+            <a href="programming-notes.html" class="item-link">
+                <div class="item">💻 Programming Notes</div>
+            </a>
+
+            <a href="engineering-maths.html" class="item-link">
+                <div class="item">📐 Engineering Mathematics Notes</div>
+            </a>
+
+            <a href="english-grammar.html" class="item-link">
+                <div class="item">📝 English Grammar Notes</div>
+            </a>
+
+            <a href="aptitude-notes.html" class="item-link">
+                <div class="item">🧠 Aptitude Notes</div>
+            </a>
+
+            <a href="science-notes.html" class="item-link">
+                <div class="item">🔬 Science Notes</div>
+            </a>
+
+            <a href="mathematical-notes.html" class="item-link">
+                <div class="item">📊 Mathematical Notes</div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <!-- Learning Platforms -->
+
+    <div class="resource-card">
+
+        <h2>🌐 Useful Learning Platforms</h2>
+
+       <div class="resource-card">
+
+
+    <div class="resource-grid">
+
+        <a href="https://www.geeksforgeeks.org/" target="_blank" class="item-link">
+            <div class="item">📘 GeeksforGeeks</div>
+        </a>
+
+        <a href="https://www.w3schools.com/" target="_blank" class="item-link">
+            <div class="item">🌍 W3Schools</div>
+        </a>
+
+        <a href="https://www.freecodecamp.org/" target="_blank" class="item-link">
+            <div class="item">💻 freeCodeCamp</div>
+        </a>
+
+        <a href="https://swayam.gov.in/" target="_blank" class="item-link">
+            <div class="item">🎓 SWAYAM</div>
+        </a>
+
+    </div>
+
+</div>
+
+    <!-- Exam Tips -->
+
+    <div class="resource-card">
+
+        <h2>🎯 Exam Preparation Tips</h2>
+
+        <ul class="tips-list">
+            <li>Create a study timetable</li>
+            <li>Set daily goals</li>
+            <li>Practice previous year papers</li>
+            <li>Take mock tests</li>
+            <li>Revise regularly</li>
+            <li>Use AI chatbot for doubt solving</li>
+        </ul>
+
+    </div>
+
+    <!-- Educational Videos -->
+     <!-- Educational Videos -->
+
+<div class="resource-card">
+
+    <h2>🎥 Educational Videos</h2>
+
+    <div class="video-section">
+
+        <h3>📐 Mathematics</h3>
+
+        <div class="resource-grid">
+
+            <a href="https://www.youtube.com/results?search_query=Algebra+Tutorials" target="_blank" class="item-link">
+                <div class="item">📘 Algebra Videos</div>
+            </a>
+
+            <a href="https://www.youtube.com/results?search_query=Calculus+Tutorials" target="_blank" class="item-link">
+                <div class="item">📗 Calculus Videos</div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="video-section">
+
+        <h3>💻 Programming</h3>
+
+        <div class="resource-grid">
+
+            <a href="https://www.youtube.com/results?search_query=Python+Tutorial+for+Beginners" target="_blank" class="item-link">
+                <div class="item">🐍 Python Tutorials</div>
+            </a>
+
+            <a href="https://www.youtube.com/results?search_query=Java+Tutorial+for+Beginners" target="_blank" class="item-link">
+                <div class="item">☕ Java Tutorials</div>
+            </a>
+
+            <a href="https://www.youtube.com/results?search_query=Web+Development+Full+Course" target="_blank" class="item-link">
+                <div class="item">🌐 Web Development Tutorials</div>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="video-section">
+
+        <h3>🔬 Science</h3>
+
+        <div class="resource-grid">
+
+            <a href="https://www.youtube.com/results?search_query=Physics+Concepts+Tutorial" target="_blank" class="item-link">
+                <div class="item">⚛️ Physics Concepts</div>
+            </a>
+
+            <a href="https://www.youtube.com/results?search_query=Chemistry+Basics+Tutorial" target="_blank" class="item-link">
+                <div class="item">🧪 Chemistry Basics</div>
+            </a>
+
+        </div>
+
+    </div>
+
+</div>
+
+     
+
+<footer>
+    <p>© 2026 AI Study Assistant | SDG 4 - Quality Education</p>
+</footer>
+
+</body>
+</html>
